@@ -1,0 +1,8 @@
+﻿tabela,chave,linhas_com_chave_nula,duplicatas_excedentes
+orders,order_id,0,0
+customers,customer_id,0,0
+items,order_id + order_item_id,0,0
+payments,order_id + payment_sequential,0,0
+products,product_id,0,0
+sellers,seller_id,0,0
+translation,product_category_name,0,0

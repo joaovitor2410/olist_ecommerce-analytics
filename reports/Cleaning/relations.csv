@@ -1,0 +1,10 @@
+﻿origem,coluna,destino,nulos,linhas_orfas,chaves_orfas
+orders,customer_id,customers,0,0,0
+items,order_id,orders,0,0,0
+items,product_id,products,0,0,0
+items,seller_id,sellers,0,0,0
+payments,order_id,orders,0,0,0
+reviews,order_id,orders,0,0,0
+products,product_category_name,translation,610,13,2
+customers,customer_zip_code_prefix,geolocation,0,278,157
+sellers,seller_zip_code_prefix,geolocation,0,7,7

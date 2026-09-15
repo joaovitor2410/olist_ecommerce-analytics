@@ -1,0 +1,23 @@
+# Dados locais e pacotes gerados
+data/raw/
+data/processed/
+*.parquet
+*.zip
+olist_cleaning_output/
+olist_eda_output/
+
+# Arquivos temporários de Python e Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Configurações locais e credenciais
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# Arquivos do sistema
+Thumbs.db
+.DS_Store
