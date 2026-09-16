@@ -1,0 +1,34 @@
+{
+  "executado_em_utc": "2026-09-16T13:30:05.630852+00:00",
+  "database": "olist_analytics",
+  "sha256": {
+    "clean/customers.parquet": "61e26cc73bc381223dfdf91270b51517094b5e9cbdf75681f2f1654501b24bc7",
+    "clean/products.parquet": "bf5fa916820e1235f80e04cff15b2d56fe412d99741389bed9c08dd37ac9e8eb",
+    "clean/sellers.parquet": "d39ee1fca1908cd0bb4637c2fd5829c049cef714384c40e12601df5d85dd41f1",
+    "clean/orders.parquet": "2b57db853ad4bd3453fa8cc7343ab50114198797d54b683578615123629c8162",
+    "clean/items.parquet": "0f6c1e26295a8f0f46def61ee49ac5135a36a0b6ca96a7ebc9c0cf704526dbaa",
+    "clean/payments.parquet": "e92b676abdaa61fb854722543c8b518ed94e9d4f4fde36b6fbd5660b58a340be",
+    "clean/reviews.parquet": "a6dbdf85c55bc67a6e96a9735f261a27317e300c78d3eddb803f3fe3b7f447e7",
+    "clean/geolocation.parquet": "e3ae4f87d7b08f0257daa67785385045ffa10f9170df1c65719404040269edac",
+    "clean/translation.parquet": "c3f4c1d4e01e82ddf356951764b01635829ae2e9b3868ec366a6d980901fc70d",
+    "analytical/orders_analysis.parquet": "01d551610ce2c848e86bb04428c03261efdd36f2464619adcb10592f5a798edf"
+  },
+  "linhas": {
+    "customers": 99441,
+    "products": 32951,
+    "sellers": 3095,
+    "orders": 99441,
+    "items": 112650,
+    "payments": 103886,
+    "reviews": 99224,
+    "geolocation": 738332,
+    "translation": 71,
+    "reference_orders": 99441
+  },
+  "postgresql": "PostgreSQL 18.6 on x86_64-windows, compiled by msvc-19.44.35228, 64-bit",
+  "python": "3.14.7",
+  "pandas": "3.0.5",
+  "psycopg": "3.3.5",
+  "reconciliacao": "zero divergencias nos campos contratuais por pedido",
+  "tolerancia_delivery_days": 1e-08
+}
